@@ -350,7 +350,11 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 50%; /*20px*/
+  border-radius: 20px;
+}
+
+.avatar-box img {
+  padding: 10px;
 }
 
 .info-content .name {
@@ -1441,11 +1445,12 @@ textarea.form-input::-webkit-resizer {
   }
 
   .avatar-box {
-    border-radius: 50%; /*30px*/
+    border-radius: 30px;
   }
 
   .avatar-box img {
     width: 120px;
+    padding: 15px;
   }
 
   .info-content .name {
@@ -1994,6 +1999,7 @@ textarea.form-input::-webkit-resizer {
 
   .avatar-box img {
     width: 150px;
+    padding: 15px;
   }
 
   .info-content .name {
