@@ -2079,6 +2079,11 @@ textarea.form-input::-webkit-resizer {
   gap: 4px;
   border-radius: 10px;
 }
+
+.download-btn-wrapper:hover {
+  background: var(--vegas-gold);
+}
+
 .download-btn {
   color: black;
   display: flex;
